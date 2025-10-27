@@ -7,7 +7,7 @@ In console, run [validify.js](validify.js) to mark if the response is 200 as it 
 * [list MA303A(0-60) 04 (0-600)](examples/list&20MA303A(0-60)%2004%20(0-600).txt)
 * [list MA303A(61-120) 04 (1-599)](examples/list%20MA303A(61-120)%2004%20(1-599).txt)
 
-In console, run [validifyspecific.js](validifyspecific.js) which runs through specific ```angka```. Modify values of ```angka``` and ranges of ```ic``` and ```ic2```. See samples:
+In console, run [validifyspecific.js](validifyspecific.js) which runs through specific ```angka```. Modify values of ```angka``` and ranges of ```ic2``` and ```ic```. See samples:
 * [list MA303A(remaining) (1-10,14) (1-1999)](examples/list%20MA303A(remaining)%20(1-10,14)%20(1-1999).txt)
 * [list MA303A(104) (10) (2001-3999)](examples/list%20MA303A(104)%20(10)%20(2001-3999).txt)
 * [list MA303A(113) (0-9) (1-1999)](examples/list%20MA303A(113)%20(0-9)%20(1-1999).txt)
