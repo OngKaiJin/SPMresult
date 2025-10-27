@@ -18,7 +18,7 @@ Launch terminal at desired folder path.
 
 In terminal, run the below to download PDFs.
 ```command
-for /f usebackq %i ("list MA303A(0-60) 04 (0-600).txt") do curl %i -O -H "Referer: https://myresultspm.moe.gov.my" -H "User-Agent:" --ssl-no-revoke
+for /f usebackq %i in ("list MA303A(0-60) 04 (0-600).txt") do curl %i -O -H "Referer: https://myresultspm.moe.gov.my" -H "User-Agent:" --ssl-no-revoke
 ```
 # Consignment
 * https://archive.org/details/SPM-2024-MA303
